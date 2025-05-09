@@ -1,5 +1,8 @@
 # Distributed Task Processing System
 
+## Task 3&4
+https://docs.google.com/document/d/1SZ2XEThhYVqcYY7SzStsBaa5O3twWhzRDMdsokFiCPY/edit?usp=sharing
+
 ## System Overview
 A Flask-based web service with Celery for asynchronous task processing, featuring comprehensive logging and alerting.
 
