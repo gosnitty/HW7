@@ -1,0 +1,3 @@
+Time: 2025-05-09 22:14:42.821159
+Type: FRAUD_ATTEMPT
+Description: User tried to submit suspicious data

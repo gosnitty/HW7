@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  app1:
+    build: ./app1
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app1/logs:/app/logs  # Монтуємо папку з логами
+
+  app2:
+    build: ./app1
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./app2/logs:/app/logs
+    depends_on:
+      - app1
